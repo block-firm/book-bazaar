@@ -61,7 +61,7 @@
             </div>
 
             <div class="nav__actions">   
-                <!--Search Button-->
+                <!-- Search Button -->
                 <i class="ri-search-line search-button" id="search-button"></i>
 
                 <!-- Login Button -->
@@ -73,6 +73,8 @@
          </nav>
     </header>
 
+    <!-- Search -->
+
     <div class="search" id="search-content">
         <form action="" class="search__form">
             <i class="ri-search-line search__icon"></i>
@@ -82,17 +84,41 @@
         <i class="ri-close-line search__close" id="search-close"></i>
     </div>
 
+    <!-- Login -->
+
+    <div class="login grid" id="login-content">
+        <form action="" class="login__form grid">
+            <h3 class="login__title">Log In</h3>
+
+            <div class="login__group grid">
+                <div>
+                    <label for="login-email" class="login__label">Email</label>
+                    <input type="email" placeholder="johndoe@company.com" id="login-email" class="login__input">
+                </div>
+
+                <div>
+                    <label for="login-pass" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+                </div>
+            </div>
+
+            <div>
+                <span class="login__signup">Don't have an account?<a href="#"> Sign Up</a></span>
+
+                <a href="#" class="login__forgot">Forgot Password?</a>
+
+                <button type="submit" class="login__button button">Log In</a></button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
     
 
 
 
 
-
-
-
-
-
-
-    
+    <script src="main.js"></script>
 </body>
 </html>
