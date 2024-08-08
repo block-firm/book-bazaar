@@ -27,7 +27,7 @@
                 <ul class="nav__list">
 
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="ri-home-line"></i>
                             <span>Home</span>
                         </a>
@@ -605,45 +605,46 @@
                     </div>
                 </div>
 
-                <div class="swiper-wrapper">
-                        <a href="#" class="new__card swiper__slide">
-                        <img src="assets/img/book-1.png" alt="image" class="new__img">
+                <div class="new__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="assets/img/book-1.png" alt="image" class="new__img">
 
-                        <div>
-                            <h2 class="new__title">New Books</h2>
-                            <div class="new__prices">
-                                <span class="new__discount">$7.99</span>
-                                <span class="new__price">$14.99</span>
-                            </div>
+                            <div>
+                                <h2 class="new__title">New Books</h2>
+                                <div class="new__prices">
+                                    <span class="new__discount">$7.99</span>
+                                    <span class="new__price">$14.99</span>
+                                </div>
 
-                            <div class="new__stars">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-half-fill"></i>
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
                             </div>
-                        </div>
                         </a>
 
                         <a href="#" class="new__card swiper-slide">
-                        <img src="assets/img/book-2.png" alt="image" class="new__img">
+                            <img src="assets/img/book-2.png" alt="image" class="new__img">
 
-                        <div>
-                            <h2 class="new__title">New Books</h2>
-                            <div class="new__prices">
-                                <span class="new__discount">$7.99</span>
-                                 <span class="new__price">$14.99</span>
-                            </div>
+                            <div>
+                                <h2 class="new__title">New Books</h2>
+                                <div class="new__prices">
+                                    <span class="new__discount">$7.99</span>
+                                    <span class="new__price">$14.99</span>
+                                </div>
 
-                            <div class="new__stars">
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                   <i class="ri-star-half-fill"></i>
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
                             </div>
-                        </div>
                         </a>
 
                         <a href="#" class="new__card swiper-slide">
@@ -805,7 +806,8 @@
                                 </div>
                             </div>
                         </a>
-                 </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -830,7 +832,7 @@
 
         <!-- Testimonial -->
 
-         <section class="testimonial section" id="testimonial">
+        <section class="testimonial section" id="testimonial">
             <h2 class="section__title">Customer Opinions</h2>
 
             <div class="testimonial__container container">
@@ -901,9 +903,9 @@
             </div>
         </section>
 
-        <!-- Footer -->
+        <!-- Testimonial -->
 
-        <section class="footer" id="footer">
+        <footer class="footer" id="footer">
             <div class="footer__container container grid">
                 <div>
                     <a href="#" class="footer__logo">
@@ -961,7 +963,7 @@
                     </div>  
 
                     <div>   
-                           <h3 class="footer__title">Contact</h3>    
+                        <h3 class="footer__title">Contact</h3>    
 
                         <ul class="footer__links">
                             <li>
@@ -1003,11 +1005,16 @@
             <span class="footer__copy">
                 &#169; All Rights Reserved 
             </span>
-        </section>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
 
     </main>
 
-    
+    <!-- Scroll Reveal -->
+    <script src="scrollreveal.min.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
